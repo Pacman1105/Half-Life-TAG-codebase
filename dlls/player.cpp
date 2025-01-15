@@ -274,10 +274,6 @@ void CBasePlayer::DeathSound()
 		break;
 	}
 
-	// play one of the suit death alarms
-	EMIT_GROUPNAME_SUIT(ENT(pev), "HEV_DEAD");
-}
-
 // override takehealth
 // bitsDamageType indicates type of damage healed.
 
